@@ -1,4 +1,4 @@
-Lab Report 1 
+Lab Report 1 \
 __cd:__ This command allows you to change the directory you are currently located in 
 1. If you type cd with no args, it will return you to the home directory. I started by changing my directory to lecture1 and then messages and when I typed in cd next, it immediately returned me to the home directory. 
 ![Image](cd_no_args.png)
@@ -10,13 +10,13 @@ __cd:__ This command allows you to change the directory you are currently locate
 ![Image](cd_file_args.png)
 
 __ls:__ This command prints a list of files / folders in the directory you are located in. 
-1. We get the following output when we pass no arguments because we are in the lecture1 directory and within lecture1, the files / folders present are Hello.class, Hello.java, messages, and README
+1. We get the following output when we pass no arguments because we are in the lecture1 directory and within lecture1, the files / folders present are Hello.class, Hello.java, messages, and README. We are essentially given a list of files and directories that are in the directory we are currently working out of. 
 ![Image](ls_no_args.png)	
 
-2. We get the following output when we provide a path to directory as an argument because within the messages sub-directory, the files that are present are da.txt, en-us.txt, es-mx.txt, zh-cn.txt  
+2. We get the following output when we provide a path to directory as an argument because within the messages sub-directory, the files that are present are da.txt, en-us.txt, es-mx.txt, zh-cn.txt. Because we are providing the ls command prompt a specific directory, we get all the contents within that directory. 
 ![Image](ls_directory_arg.png)	
 
-3. We get the following output when we provide a path to the file as an argument because the command prompt prints the argument we provided. 
+3. We get the following output when we provide a path to the file as an argument because the command prompt prints back the file path we provided. 
 ![Image](ls_file_arg.png)	
 
 __cat:__ This command takes a list 
