@@ -1,5 +1,13 @@
 Lab Report 1 
 __cd:__ This command allows you to change the directory you are currently located in 
+1. If you type cd with no args, it will return you to the home directory. I started by changing my directory to lecture1 and then messages and when I typed in cd next, it immediately returned me to the home directory. 
+![Image](cd_no_args.png)
+
+2. If you pass in a proper working path to cd, you will be able to change into that directory. Because I knew that lecture1 was the only directory that could be accessed from home and messages could only be accessed from lecture1, I passed in the proper order seperated by forward slashes. The command works as intended by placing me in the working directory home/lecture1/messages.
+![Image](cd_directory_arg.png)	
+
+3. When I pass a file as a parameter, I get an error saying that da.txt is not a directory. Because the parameter I am passing is not a directory, the cd command will not work and I will get an error message reminding me to pass in a directory as the output. 
+![Image](cd_file_args.png)
 
 __ls:__ This command prints a list of files / folders in the directory you are located in. 
 1. We get the following output when we pass no arguments because we are in the lecture1 directory and within lecture1, the files / folders present are Hello.class, Hello.java, messages, and README
