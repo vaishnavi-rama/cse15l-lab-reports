@@ -1,4 +1,4 @@
-Lab Report 1 \
+## Lab Report 1 
 __cd:__ This command allows you to change the directory you are currently located in 
 1. If you type cd with no args, it will return you to the home directory. I started by changing my directory to lecture1 and then messages and when I typed in cd next, it immediately returned me to the home directory. 
 ![Image](cd_no_args.png)
