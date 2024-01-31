@@ -62,7 +62,7 @@ As discussed in the lab, the spaces are replaced with a specical character: "+".
 The absolute path to the private key is `/Users/vramanujan/.ssh/id_rsa`. When we provide a path to a file as an argument to ls, the file name is returned if it exsits. Therefore we know that the private key has been successfully created on my computer. 
 ![Image](private_key_ssh.png)
 
-The abolute path to the public key from the ieng6 machine is `/home/linux/ieng6/oce/7k/vramanujan/.ssh`. The authorized_keys file which is returned, contains the ssh keys that allow the user to log in without a password. 
+The abolute path to the public key from the ieng6 machine is `/home/linux/ieng6/oce/7k/vramanujan/.ssh`. The `authorized_keys` file which is returned, contains the ssh keys that allow the user to log in without a password. Similar to the previous ls command, we are able to verify that the file with the public key exists on the ieng6 machine. 
 ![Image](public_key_ieng6.png)
 
 
