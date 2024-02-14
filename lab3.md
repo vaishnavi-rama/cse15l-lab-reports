@@ -82,6 +82,7 @@ althy lifespan of humans. They want to
 
 MacBook-Pro-56:plos vramanujan$
 ```
+Source: https://www.geeksforgeeks.org/less-command-linux-examples/
 
 **2. -p [pattern] \<filename\>**
 Another option is `-p`, after which you provide a pattern to search for. This command opens the file and starts at the first occurrence of this pattern. The pattern is also highlighted when the text file is opened. If no pattern match is found, I get an error back that said "Pattern not found (press RETURN)".   
@@ -116,6 +117,7 @@ March 31, 2001.
 :
 ... note rest of the .txt file is ommitted ...
 ```
+Source: https://www.geeksforgeeks.org/less-command-linux-examples/
 
 **3. -s \<filename\>**
 A third option to use with the `less` command is `-s`, which combines all successive blank lines into one line when the file is being read in the terminal. 
@@ -158,6 +160,8 @@ MacBook-Pro-56:biomed vramanujan$ less -s 1468-6708-3-7.txt
 
 ```
 
+Source: https://www.geeksforgeeks.org/less-command-linux-examples/
+
 **4. -N \<filename\>**
 A fourth option is to use `-N` with the `less` option and this will open the file in the terminal with line numbers. 
 
@@ -197,3 +201,5 @@ MacBook-Pro-56:plos vramanujan$ less -N journal.pbio.0020035.txt
       7 al class of these
 :
 ```
+
+Source: https://linuxize.com/post/less-command-in-linux/
