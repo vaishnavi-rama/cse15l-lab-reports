@@ -1,3 +1,5 @@
+## Lab Report 4
+
 4. To log into ieng6, I opened a terminal window in my local computer and typed in `ssh vramanujan@ieng.uscd.edu <enter>`. Since I had configured ssh on this computer in a previous lab, I was able to log in without a password. 
 ![Image](ieng6_login-lab7.png)
 
