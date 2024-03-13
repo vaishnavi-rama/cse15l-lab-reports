@@ -1,3 +1,6 @@
+## Lab Report 4
+
+### Part 1 - Debugging Scenario
 The file directory (starting from the default directory that the terminal starts in is) used for setup is the following: 
 - ArrayEx.java
 - ArrayTests.java
@@ -170,3 +173,6 @@ public class ArrayEx{
 
 }
 ```
+
+### Part 2 - Reflection
+Something I learned in lab was how to use jdb to debug and run through code. Building off what we learned in lecture, it was really cool that we could use commands such as suspend and print to see the values of the variables. Instead of using a lot of print statements to figure out what is happening in the code, using jdb to set breakpoints, which makes the whole debugging process easier and more efficient.  
